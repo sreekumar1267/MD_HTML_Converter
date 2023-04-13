@@ -12,7 +12,11 @@
  ### Below are some assumptions in this project
  
  every markdown line will be separated by a new empy line in between
+ 
  only h1 to h6 can exist, so if it is more than 6, it will be rendered as h6
+ 
  a link alone will not appear in a line, even if it does it will be handled inside a <p> tag
+ 
  links should strictly follow the syntax [link-text](actual link)
+ 
  Empty trailing and leading spaces will be truncated 
